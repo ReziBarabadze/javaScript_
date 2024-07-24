@@ -1,0 +1,121 @@
+/* header */
+header{
+  background-color: #2A9D8F;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 38px 130px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+.header_ul{
+  display: flex;
+  column-gap: 80px;
+}
+.header_a{
+  font-family: Nerko One;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0.005em;
+  text-align: left;
+  color: #fff;
+}
+/* section1 */
+.section1{
+  display: flex;
+  justify-content: space-between;
+  padding: 80px 130px;
+  background-color: #C2F3EE;
+  margin-top: 124.4px;
+}
+aside{
+  width: 460px;
+}
+.section1_h2{
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0.005em;
+  text-align: left;
+  color: #272727;
+}
+.header1_p{
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.005em;
+  text-align: left;
+  color: #272727;
+  margin-block: 24px 48px;
+}
+.header_button{
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #fff;
+  border: none;
+  background-color: #2A9D8F;
+  width: 113px;
+  height: 46px;
+  text-align: center;
+}
+/* section 2 */
+.section2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 120px 330px;
+}
+.box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section2_h2{
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0.005em;
+  text-align: center; 
+  color: #06686E;
+  margin-bottom: 80px;
+}
+.section2_p{
+  font-family: Nerko One;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0.005em;
+  text-align: justify;
+  color: #337C81;
+}
+/* footer */
+footer{
+  background-color: #2A9D8F;
+  display: flex;
+  justify-content: space-between;
+  padding: 88px 130px;
+}
+.footer_ul{
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+.footer_a{
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+  color: #fff;
+}
